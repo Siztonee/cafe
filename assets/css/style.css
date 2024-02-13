@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../images/main-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.button {
+  background-color: #B59571;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* header */
+
+.header {
+  margin-top: 30px;
+}
+
+.header-nav {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
+
+.header-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
+
+
+
+/* main */
+
+.main-content {
+  width: 856px;
+  height: 152px;
+  position: absolute;
+  bottom: 55px;
+  left: 250px;
+  color: #fff;
+}
+
+.main-content__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 75.5px;
+}
+
+
+
+
+/* aside */
+
+.aside {
+  height: 100%;
+  background-color: #333333;
+  position: absolute;
+  top: 0;
+  padding: 30px 20px 15px 20px;
+}
+
+
+
+
+.burger-menu {
+  width: 25px;
+  height: 25px;
+  /* display: none; */
+}
+
+.burger-button {
+  position: relative;
+  width: 25px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burger-button:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #B59571;
+}
+
+.burger-button:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #B59571;
+}
+
+.burger-button:after {bottom: 20%; left: 0;}
+.burger-button:before {top: 20%; left: 0;}
+.burger-button span {
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  top: 45%;
+  left: 0;
+  background-color: #B59571;
+}
+
+
+.aside-content__burger {
+  position: absolute;
+  top: 100px;
+  left: 45px;
+}
+
+
+
+.aside-content__socs {
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+}
